@@ -45,7 +45,7 @@ nodes:
        hostPort: 80
        protocol: TCP
      - containerPort: 443
-       hostPort: 80
+       hostPort: 443
        protocol: TCP   
 
 ```
