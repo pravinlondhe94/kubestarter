@@ -40,7 +40,7 @@ nodes:
   image: kindest/node:v1.31.2
 - role: worker
   image: kindest/node:v1.31.2
-  extraPortMapping:
+  extraPortMappings:
      - containerPort: 80
        hostPort: 80
        protocol: TCP
